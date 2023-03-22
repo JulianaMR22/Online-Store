@@ -5,11 +5,11 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 function Cards() {
-  const [Cart, setCart] = useState([])
+  const [Cart, setCart] = useState([]);
   const [cartValue, setCartValue] = useState("");
 
   const addToCart = () => {
-    setCart([...cards, { title, price, description}]);
+    setCart([...cards, { title, price, description }]);
   };
   return (
     <div className="main_container">
@@ -17,9 +17,9 @@ function Cards() {
         <div key={item.id} className={`container_cards ${item.class}`}>
           <button className="container_info">
             <h1 className="title_cards">{item.title}</h1>
-            <p className="price_cards">{item.price}</p>
             <p className="description_cards">{item.description}</p>
-            <button className="container_cart" onClick={()=> addToCart}>
+            <button className="container_cart" onClick={() => addToCart}>
+              {item.price}
               <FontAwesomeIcon
                 icon={faCartShopping}
                 className="icon_cards"
