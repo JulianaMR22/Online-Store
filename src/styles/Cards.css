@@ -10,6 +10,11 @@
   box-shadow: -7px 9px 16px -3px rgba(145, 140, 145, 1);
   position: relative;
   background-position-y: 50%;
+  transition: 300ms;
+}
+
+.container_cards:hover{
+transform: scale(1.05);
 }
 
 .container_cards.tacos {
@@ -79,7 +84,7 @@
 .description_cards {
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
-  color:white;
+  color: white;
   font-weight: lighter;
   text-transform: capitalize;
 }
@@ -87,6 +92,7 @@
 .icon_cards {
   color: white;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 .container_cart {

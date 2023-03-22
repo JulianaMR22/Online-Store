@@ -19,7 +19,7 @@ function Cards() {
             <h1 className="title_cards">{item.title}</h1>
             <p className="description_cards">{item.description}</p>
             <button className="container_cart" onClick={() => addToCart}>
-              {item.price}
+              ${item.price} 
               <FontAwesomeIcon
                 icon={faCartShopping}
                 className="icon_cards"
