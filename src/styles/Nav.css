@@ -1,0 +1,53 @@
+.list_drinks,
+.list_anything,
+.list_products {
+  margin-left: 30px;
+  font-size: 15px;
+  color: grey;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.list_drinks:hover {
+  border-top: 2px solid #ff8000;
+  cursor: pointer;
+}
+.list_anything:hover {
+  border-top: 2px solid #ff8000;
+  cursor: pointer;
+}
+.list_products:hover {
+  border-top: 2px solid #ff8000;
+  cursor: pointer;
+}
+
+.container_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.input_header {
+  width: 350;
+  height: 40px;
+  color: grey;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 1px solid #ff8000;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+::placeholder {
+  color: grey;
+  font-family: "Courier New", Courier, monospace;
+}

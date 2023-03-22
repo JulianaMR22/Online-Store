@@ -1,0 +1,101 @@
+.container_cards {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: 2px solid grey;
+  margin: 1.66%;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: -7px 9px 16px -3px rgba(145, 140, 145, 1);
+  position: relative;
+  background-position-y: 50%;
+}
+
+.container_cards.tacos {
+  background-image: url("../images/mexican tacos.jpg");
+}
+.container_cards.fries {
+  background-image: url("../images/French fries.jpg");
+}
+.container_cards.pancakes {
+  background-image: url("../images/panckques.jpg");
+}
+.container_cards.pizza {
+  background-image: url("../images/pizza.jpg");
+}
+.container_cards.salmon {
+  background-image: url("../images/salmon.jpg");
+}
+.container_cards.burger {
+  background-image: url("../images/special burger.jpg");
+}
+
+.container_cards.sushi {
+  background-image: url("../images/sushi.jpg");
+}
+
+.container_cards.sandwich {
+  background-image: url("../images/sandwich.jpg");
+}
+
+.image_cards {
+  width: 55%;
+  height: 155px;
+  background-size: cover;
+}
+
+.main_container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+}
+
+.container_info {
+  border: 1px solid grey;
+  width: 260px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 0;
+  background-color: #ff8000;
+}
+
+.title_cards {
+  margin-bottom: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: larger;
+  color: black;
+  font-size: 17px;
+}
+
+.price_cards{
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.description_cards {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: rgb(52, 52, 52);
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+.icon_cards{
+  color: white;
+  cursor: pointer;
+}
+
+.icon_cards:hover{
+  color: rgb(241, 249, 25);
+  font-size: 19px;
+}
+
+.container_cart{
+  background-color: transparent;
+  border: none;
+}
