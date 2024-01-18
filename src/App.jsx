@@ -6,14 +6,16 @@ import MyHeader from "./components/Header";
 import Navbar from "./components/Navbar";
 
 function App() {
+  const [foodFilter, setFoodFilter] = useState("all");
+
   return (
     <div>
-      <Navbar/>
-      <MyHeader/>
-      <Nav/>
-      <Cards/>
+      <Navbar />
+      <MyHeader />
+      <Nav setFoodFilter={setFoodFilter} />
+      <Cards foodFilter={foodFilter} />
     </div>
-  )
+  );
 }
 
 export default App;

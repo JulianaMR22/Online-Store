@@ -1,5 +1,6 @@
 .container_cards {
-  width: 30%;
+  width: 400px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -13,8 +14,8 @@
   transition: 300ms;
 }
 
-.container_cards:hover{
-transform: scale(1.05);
+.container_cards:hover {
+  transform: scale(1.05);
 }
 
 .container_cards.tacos {
@@ -35,9 +36,20 @@ transform: scale(1.05);
 .container_cards.burger {
   background-image: url("../images/special burger.jpg");
 }
-
 .container_cards.sushi {
   background-image: url("../images/sushi.jpg");
+}
+.container_cards.coca_cola {
+  background-image: url("../images/COCA-COLA.jpg");
+}
+.container_cards.postobon {
+  background-image: url("../images/postobon.png");
+}
+.container_cards.hatsu {
+  background-image: url("../images/hatsu.png");
+}
+.container_cards.limonada {
+  background-image: url("../images/limonada.jpg");
 }
 
 .container_cards.sandwich {

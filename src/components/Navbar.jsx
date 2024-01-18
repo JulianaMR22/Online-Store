@@ -1,5 +1,4 @@
 import "../styles/Navbar.css";
-import Cart from "./Cart";
 
 function Navbar() {
   return (
@@ -23,9 +22,6 @@ function Navbar() {
               About
               <a href=""></a>
             </button>
-          </li>
-          <li className="sub_cart_navbar sub_list">
-            <Cart />
           </li>
         </ul>
       </nav>
